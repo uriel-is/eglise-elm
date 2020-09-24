@@ -5,11 +5,12 @@
 # Any changes to the directives between these markers will be overwritten.
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /eglise-elm/
+# RewriteBase /eglise-elm/
+RewriteBase /
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /eglise-elm/index.php [L]
+RewriteRule . /index.php [L]
 </IfModule>
 
 # END WordPress
