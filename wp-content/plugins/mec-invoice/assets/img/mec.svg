@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.002" y1="0.5" x2="1.004" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#40d9f1"/>
+      <stop offset="1" stop-color="#73f2ff"/>
+    </linearGradient>
+    <clipPath id="clip-mec-invoce-wp-icon">
+      <rect width="20" height="20"/>
+    </clipPath>
+  </defs>
+  <g id="mec-invoce-wp-icon" clip-path="url(#clip-mec-invoce-wp-icon)">
+    <path id="Path_6" data-name="Path 6" d="M18.389,5.3H.963C.385,5.3,0,5.8,0,6.559V22.541C0,23.3.385,23.8.867,23.8H18.293a1.022,1.022,0,0,0,.867-1.133V6.559C19.256,5.929,18.871,5.3,18.389,5.3ZM5.1,20.654H3.851V8.572H5.1Zm3.851,0V8.572h1.252V20.654Zm6.451,0H14.153V8.572H15.4Z" transform="translate(-4.55 19.608) rotate(-90)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

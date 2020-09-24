@@ -1,0 +1,823 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MEC Ticket and Invoice\n"
+"POT-Creation-Date: 2020-09-13 17:30+0430\n"
+"PO-Revision-Date: 2020-09-13 17:30+0430\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: mec-invoice.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: core/checkLicense/check-activation.php:203
+msgid ""
+"Activation faild. Please check your purchase code or license type."
+"<br><b>Note: Your purchase code should match your licesne type.</b>"
+msgstr ""
+
+#: core/checkLicense/check-activation.php:203
+msgid "Troubleshooting"
+msgstr ""
+
+#: core/manager/controller.php:159 core/manager/controller.php:214
+#: core/manager/controller.php:269 core/notifications/notifications.php:492
+#, php-format
+msgid "%s to %s"
+msgstr ""
+
+#: core/manager/controller.php:378
+msgid "Event Excerpt for Invoice"
+msgstr ""
+
+#: core/manager/controller.php:379
+msgid ""
+"Short descriptions about the event in the invoice. It is set to Modern Style "
+"as default."
+msgstr ""
+
+#: core/manager/controller.php:497
+msgid "Checked In"
+msgstr ""
+
+#: core/manager/controller.php:499
+msgid "Not Yet"
+msgstr ""
+
+#: core/manager/controller.php:518
+msgid "Checkin Status"
+msgstr ""
+
+#: core/manager/controller.php:531
+msgid "Export Attendees As CSV"
+msgstr ""
+
+#: core/manager/controller.php:600
+msgid "Unknow Ticket"
+msgstr ""
+
+#: core/manager/controller.php:677
+msgid ""
+"Export all the details of invoices in \"XMl\" format. To proceed, please use "
+"the WordPress importer."
+msgstr ""
+
+#: core/manager/controller.php:749 core/metabox/invoice-view.php:335
+msgid "Uncheck"
+msgstr ""
+
+#: core/manager/controller.php:754 core/metabox/invoice-view.php:337
+msgid "Checkin"
+msgstr ""
+
+#: core/manager/controller.php:865 core/manager/controller.php:884
+#: core/metabox/invoice-new.php:145 core/notifications/notifications.php:186
+#: core/notifications/notifications.php:208 core/postTypes/mec-invoice.php:304
+#: core/postTypes/mec-invoice.php:503
+msgid "Invoice"
+msgstr ""
+
+#: core/manager/controller.php:904
+msgid "Invoice Options"
+msgstr ""
+
+#: core/manager/controller.php:946
+msgid "Invoice Ooptions"
+msgstr ""
+
+#: core/manager/controller.php:947
+msgid "Company Information"
+msgstr ""
+
+#: core/manager/controller.php:949
+msgid "Company URL"
+msgstr ""
+
+#: core/manager/controller.php:955
+msgid "Company Name"
+msgstr ""
+
+#: core/manager/controller.php:961
+msgid "Company Email"
+msgstr ""
+
+#: core/manager/controller.php:967
+msgid "Company Phone"
+msgstr ""
+
+#: core/manager/controller.php:973 templates/translate-email-invoice.php:15
+#: templates/translate-email-minimal-invoice.php:13
+#: templates/translate-email-tickets.php:15
+msgid "Vat Number"
+msgstr ""
+
+#: core/manager/controller.php:979 templates/translate-email-invoice.php:30
+msgid "Description"
+msgstr ""
+
+#: core/manager/controller.php:985 templates/translate-email-invoice.php:13
+#: templates/translate-email-minimal-invoice.php:11
+msgid "Address"
+msgstr ""
+
+#: core/manager/controller.php:991
+msgid "Logo"
+msgstr ""
+
+#: core/manager/controller.php:997
+msgid "Invoice Number Generation Settings"
+msgstr ""
+
+#: core/manager/controller.php:999
+msgid "Invoice Number Start Point"
+msgstr ""
+
+#: core/manager/controller.php:1005
+msgid "Invoice Number Length"
+msgstr ""
+
+#: core/manager/controller.php:1009 core/manager/controller.php:1036
+msgid "Examples"
+msgstr ""
+
+#: core/manager/controller.php:1032
+msgid "Invoice Number Pattern"
+msgstr ""
+
+#: core/manager/controller.php:1058
+msgid "PDF Generation Settings"
+msgstr ""
+
+#: core/manager/controller.php:1060
+msgid "html2pdf API Key"
+msgstr ""
+
+#: core/manager/controller.php:1073
+msgid "Display Invoice Description in Print and PDF Mode"
+msgstr ""
+
+#: core/manager/controller.php:1077
+msgid "Live Attendees Settings"
+msgstr ""
+
+#: core/manager/controller.php:1082
+msgid "Use Pusher API For Live Actions"
+msgstr ""
+
+#: core/manager/controller.php:1087
+msgid "Pusher.com API"
+msgstr ""
+
+#: core/manager/controller.php:1099
+msgid "Check-in & Notification Settings"
+msgstr ""
+
+#: core/manager/controller.php:1104
+msgid "Enable Check-in Using QR Code only On Event Opening Days"
+msgstr ""
+
+#: core/manager/controller.php:1111
+msgid "Send Ticket & Invoice for each Attendees"
+msgstr ""
+
+#: core/manager/controller.php:1119
+msgid "Disable MEC Booking Notifications"
+msgstr ""
+
+#: core/manager/controller.php:1122 core/manager/controller.php:1176
+msgid "MEC Booking Notifications"
+msgstr ""
+
+#: core/manager/controller.php:1125
+msgid ""
+"By enabling this option, the pre-defined booking confirmation sent to the "
+"customer by MEC is disabled. Add-on's email is sent in both disable/enable "
+"states."
+msgstr ""
+
+#: core/manager/controller.php:1136
+msgid "Checkin Roles"
+msgstr ""
+
+#: core/manager/controller.php:1139
+msgid "Checkin And Uncheck Roles"
+msgstr ""
+
+#: core/manager/controller.php:1141
+msgid "What is the user access for Checkin and Uncheck?"
+msgstr ""
+
+#: core/manager/controller.php:1159
+msgid "Invoice Rendering Settings"
+msgstr ""
+
+#: core/manager/controller.php:1161
+msgid "Invoice Type"
+msgstr ""
+
+#: core/manager/controller.php:1164 core/metabox/invoice-dashboard.php:142
+#: core/metabox/invoice-new.php:245 core/metabox/invoice-view.php:291
+#: core/metabox/invoice-view.php:431
+msgid "Ticket"
+msgstr ""
+
+#: core/manager/controller.php:1165
+msgid "Modern"
+msgstr ""
+
+#: core/manager/controller.php:1173
+msgid "Show invoice time in modern style"
+msgstr ""
+
+#: core/manager/controller.php:1179
+msgid "Display invoice time (minuets and hours) in modern style"
+msgstr ""
+
+#: core/manager/controller.php:1188
+msgid "Date Format (Tickets)"
+msgstr ""
+
+#: core/manager/controller.php:1192 core/manager/controller.php:1206
+#: core/manager/controller.php:1213
+msgid "Exam: M j, Y"
+msgstr ""
+
+#: core/manager/controller.php:1195
+msgid "Time Format (Tickets)"
+msgstr ""
+
+#: core/manager/controller.php:1199
+msgid "Exam: h:i A"
+msgstr ""
+
+#: core/manager/controller.php:1202
+msgid "Default Date Format"
+msgstr ""
+
+#: core/manager/controller.php:1209
+msgid "Event Date Format"
+msgstr ""
+
+#: core/manager/controller.php:1218 core/manager/controller.php:1221
+msgid "Invoice Descriptions"
+msgstr ""
+
+#: core/manager/controller.php:1223
+msgid ""
+"This description is displayed in every invoice. For example, Be at the "
+"location at least one hour before the event begins."
+msgstr ""
+
+#: core/manager/controller.php:1240
+msgid "Custom Css"
+msgstr ""
+
+#: core/manager/controller.php:1243
+msgid "Invoice Custom Styles"
+msgstr ""
+
+#: core/manager/controller.php:1251
+msgid "Generate Invoice for Old Bookings"
+msgstr ""
+
+#: core/manager/controller.php:1253
+msgid "Import Invoices from Bookings"
+msgstr ""
+
+#: core/manager/controller.php:1255
+msgid "Import"
+msgstr ""
+
+#: core/manager/controller.php:1342
+msgid "Select Logo"
+msgstr ""
+
+#: core/metabox/invoice-dashboard.php:96
+msgid "Ticket and Invoice sales summary"
+msgstr ""
+
+#: core/metabox/invoice-dashboard.php:121 core/metabox/invoice-new.php:222
+msgid "Event is invalid. Please select an event."
+msgstr ""
+
+#: core/metabox/invoice-dashboard.php:129 core/metabox/invoice-new.php:226
+msgid ""
+"No ticket or future dates found for this event! Please try another event."
+msgstr ""
+
+#: core/metabox/invoice-dashboard.php:135 core/metabox/invoice-new.php:239
+#: core/metabox/invoice-view.php:378 core/postTypes/mec-invoice.php:311
+msgid "Date"
+msgstr ""
+
+#: core/metabox/invoice-dashboard.php:161
+#: core/metabox/invoice-dashboard.php:188 core/metabox/invoice-new.php:264
+#: core/metabox/invoice-new.php:291 core/metabox/invoice-view.php:415
+#: core/metabox/invoice-view.php:418 templates/translate-already-checked.php:14
+#: templates/translate-already-unchecked.php:14
+#: templates/translate-email-invoice.php:26
+#: templates/translate-successfully-checked.php:14
+#: templates/translate-successfully-unchecked.php:14
+msgid "Name"
+msgstr ""
+
+#: core/metabox/invoice-dashboard.php:169
+#: core/metabox/invoice-dashboard.php:190 core/metabox/invoice-new.php:272
+#: core/metabox/invoice-new.php:293 core/metabox/invoice-view.php:287
+#: core/metabox/invoice-view.php:423 core/metabox/invoice-view.php:426
+#: templates/translate-already-checked.php:15
+#: templates/translate-already-unchecked.php:15
+#: templates/translate-email-invoice.php:28
+#: templates/translate-successfully-checked.php:15
+#: templates/translate-successfully-unchecked.php:15
+msgid "Email"
+msgstr ""
+
+#: core/metabox/invoice-dashboard.php:234 core/metabox/invoice-new.php:337
+msgid "ADD Attendee"
+msgstr ""
+
+#: core/metabox/invoice-dashboard.php:235 core/metabox/invoice-new.php:338
+msgid "Attendees Information"
+msgstr ""
+
+#: core/metabox/invoice-new.php:122
+msgid ""
+"Booking System is disabled. To add invoices, please enable this option from "
+"MEC Settings."
+msgstr ""
+
+#: core/metabox/invoice-new.php:143
+msgid "It will create a new booking and invoice under \"Pay Locally\" gateway."
+msgstr ""
+
+#: core/metabox/invoice-new.php:149 templates/translate-email-invoice.php:23
+msgid "Invoice Number"
+msgstr ""
+
+#: core/metabox/invoice-new.php:157 core/metabox/invoice-view.php:362
+#: core/postTypes/mec-invoice.php:306
+msgid "Event"
+msgstr ""
+
+#: core/metabox/invoice-new.php:192
+msgid "Remove"
+msgstr ""
+
+#: core/metabox/invoice-new.php:432
+msgid "Custom Invoice"
+msgstr ""
+
+#: core/metabox/invoice-new.php:515 core/postTypes/mec-invoice.php:506
+msgid "Manage Invoice"
+msgstr ""
+
+#: core/metabox/invoice-view.php:176
+msgid "Invoice Information"
+msgstr ""
+
+#: core/metabox/invoice-view.php:205
+msgid "The transaction ID is missed!"
+msgstr ""
+
+#: core/metabox/invoice-view.php:237
+msgid "View"
+msgstr ""
+
+#: core/metabox/invoice-view.php:259 core/metabox/invoice-view.php:398
+#: core/postTypes/mec-invoice.php:307 templates/translate-email-invoice.php:37
+msgid "Attendees"
+msgstr ""
+
+#: core/metabox/invoice-view.php:292 core/notifications/notifications.php:492
+msgid "Unknown"
+msgstr ""
+
+#: core/metabox/invoice-view.php:316
+msgid "Yes"
+msgstr ""
+
+#: core/metabox/invoice-view.php:316
+msgid "No"
+msgstr ""
+
+#: core/metabox/invoice-view.php:327
+msgid "Checked in"
+msgstr ""
+
+#: core/metabox/invoice-view.php:351
+msgid "Edit Booking"
+msgstr ""
+
+#: core/metabox/invoice-view.php:352
+msgid "Do not edit the booking unless it is really needed!"
+msgstr ""
+
+#: core/metabox/invoice-view.php:357
+msgid "I need to edit the booking details"
+msgstr ""
+
+#: core/metabox/invoice-view.php:394
+msgid "Add Attendee"
+msgstr ""
+
+#: core/metabox/invoice-view.php:410
+msgid "Remove Attendee"
+msgstr ""
+
+#: core/metabox/resend-invoice.php:117
+msgid "Done! The Invoice has been resent."
+msgstr ""
+
+#: core/metabox/resend-invoice.php:122
+msgid "Oops! Please Confirm the Booking in the First Step."
+msgstr ""
+
+#: core/metabox/resend-invoice.php:157
+msgid "Resend Invoice To"
+msgstr ""
+
+#: core/metabox/resend-invoice.php:159
+msgid ""
+"If the customer has not received the invoice, you can resend the invoice "
+"email again. Before proceeding, please check the spam folder to make sure "
+"you have not received it."
+msgstr ""
+
+#: core/notifications/notifications.php:563
+msgid "All Day"
+msgstr ""
+
+#: core/pages/invoice.php:228
+msgid "Attendee(s)"
+msgstr ""
+
+#: core/pages/invoice.php:228
+msgid "All attendees have been checked already"
+msgstr ""
+
+#: core/postTypes/mec-invoice.php:257
+msgid "All"
+msgstr ""
+
+#: core/postTypes/mec-invoice.php:268
+msgid "Order Date"
+msgstr ""
+
+#: core/postTypes/mec-invoice.php:269
+msgid "Today"
+msgstr ""
+
+#: core/postTypes/mec-invoice.php:270
+msgid "Yesterday"
+msgstr ""
+
+#: core/postTypes/mec-invoice.php:271
+msgid "Current Month"
+msgstr ""
+
+#: core/postTypes/mec-invoice.php:272
+msgid "Last Month"
+msgstr ""
+
+#: core/postTypes/mec-invoice.php:273
+msgid "Current Year"
+msgstr ""
+
+#: core/postTypes/mec-invoice.php:274
+msgid "Last Year"
+msgstr ""
+
+#: core/postTypes/mec-invoice.php:308 templates/translate-email-invoice.php:24
+msgid "Transaction ID"
+msgstr ""
+
+#: core/postTypes/mec-invoice.php:309
+msgid "Total Price"
+msgstr ""
+
+#: core/postTypes/mec-invoice.php:310
+msgid "Accessibility"
+msgstr ""
+
+#: core/postTypes/mec-invoice.php:402 core/postTypes/mec-invoice.php:508
+msgid "View Invoice"
+msgstr ""
+
+#: core/postTypes/mec-invoice.php:405
+msgid "Manage"
+msgstr ""
+
+#: core/postTypes/mec-invoice.php:474
+msgid "Export as PDF"
+msgstr ""
+
+#: core/postTypes/mec-invoice.php:475
+msgid "Disable Accessibility"
+msgstr ""
+
+#: core/postTypes/mec-invoice.php:476
+msgid "Enable Accessibility"
+msgstr ""
+
+#: core/postTypes/mec-invoice.php:501
+msgid "MEC Invoices"
+msgstr ""
+
+#: core/postTypes/mec-invoice.php:502
+msgid "Invoices"
+msgstr ""
+
+#: core/postTypes/mec-invoice.php:504
+msgid "Add New"
+msgstr ""
+
+#: core/postTypes/mec-invoice.php:505
+msgid "Add New Invoice"
+msgstr ""
+
+#: core/postTypes/mec-invoice.php:507
+msgid "New Invoice"
+msgstr ""
+
+#: core/postTypes/mec-invoice.php:509
+msgid "Search Invoice"
+msgstr ""
+
+#: core/postTypes/mec-invoice.php:510
+msgid "No Invoice found"
+msgstr ""
+
+#: core/postTypes/mec-invoice.php:511
+msgid "No Invoice found in Trash"
+msgstr ""
+
+#: mec-invoice.php:116
+msgid ""
+"MEC Invoice is not working because you need to install latest version of "
+"Modern Events Calendar plugin"
+msgstr ""
+
+#: mec-invoice.php:117
+msgid "Minimum version required"
+msgstr ""
+
+#: mec-invoice.php:118
+msgid "Update Modern Events Calendar Now"
+msgstr ""
+
+#: mec-invoice.php:178
+msgid ""
+"MEC Invoice is not working because you need to activate the Modern Events "
+"Calendar plugin."
+msgstr ""
+
+#: mec-invoice.php:179
+msgid "Activate Modern Events Calendar Now"
+msgstr ""
+
+#: mec-invoice.php:185
+msgid ""
+"MEC Invoice is not working because you need to install the Modern Events "
+"Calendar plugin"
+msgstr ""
+
+#: mec-invoice.php:186
+msgid "Install Modern Events Calendar Now"
+msgstr ""
+
+#: templates/translate-already-checked.php:10
+msgid "Already Checked"
+msgstr ""
+
+#: templates/translate-already-checked.php:11
+#: templates/translate-already-unchecked.php:11
+#: templates/translate-early-checkin.php:11
+#: templates/translate-permission-denied.php:11
+#: templates/translate-successfully-checked.php:11
+#: templates/translate-successfully-unchecked.php:11
+msgid "Invoice ID"
+msgstr ""
+
+#: templates/translate-already-checked.php:12
+msgid "Already Checked!"
+msgstr ""
+
+#: templates/translate-already-checked.php:13
+#: templates/translate-already-unchecked.php:13
+#: templates/translate-email-invoice.php:17
+#: templates/translate-successfully-checked.php:13
+#: templates/translate-successfully-unchecked.php:13
+msgid "Event Name"
+msgstr ""
+
+#: templates/translate-already-checked.php:16
+#: templates/translate-successfully-checked.php:16
+msgid "Checked Time"
+msgstr ""
+
+#: templates/translate-already-checked.php:17
+msgid "Un-Check Ticket"
+msgstr ""
+
+#: templates/translate-already-unchecked.php:10
+msgid "Already UnChecked"
+msgstr ""
+
+#: templates/translate-already-unchecked.php:12
+msgid "Already UnChecked!"
+msgstr ""
+
+#: templates/translate-already-unchecked.php:16
+msgid "Check Ticket"
+msgstr ""
+
+#: templates/translate-early-checkin.php:10
+#: templates/translate-invoice-is-corrupted.php:10
+#: templates/translate-invoice-not-found.php:10
+#: templates/translate-permission-denied.php:10
+msgid "Permission Denied"
+msgstr ""
+
+#: templates/translate-early-checkin.php:12
+msgid "This is too early for check-in."
+msgstr ""
+
+#: templates/translate-early-checkin.php:13
+msgid ""
+"The event has not started yet. If you are sure about this please contact the "
+"website administrator."
+msgstr ""
+
+#: templates/translate-email-invoice-ticket.php:10
+#: templates/translate-email-invoice.php:10
+msgid "Download PDF"
+msgstr ""
+
+#: templates/translate-email-invoice-ticket.php:11
+#: templates/translate-email-invoice.php:11
+msgid "Print"
+msgstr ""
+
+#: templates/translate-email-invoice.php:12
+#: templates/translate-email-minimal-invoice.php:10
+msgid "E-mail"
+msgstr ""
+
+#: templates/translate-email-invoice.php:14
+#: templates/translate-email-invoice.php:29
+#: templates/translate-email-minimal-invoice.php:12
+msgid "Phone"
+msgstr ""
+
+#: templates/translate-email-invoice.php:16
+#: templates/translate-email-invoice.php:27
+msgid "Website"
+msgstr ""
+
+#: templates/translate-email-invoice.php:18
+msgid "Event Excerpt"
+msgstr ""
+
+#: templates/translate-email-invoice.php:19
+msgid "Event Date"
+msgstr ""
+
+#: templates/translate-email-invoice.php:20
+msgid "Event Time"
+msgstr ""
+
+#: templates/translate-email-invoice.php:21
+msgid "Invoice Date"
+msgstr ""
+
+#: templates/translate-email-invoice.php:22
+msgid "Event Location"
+msgstr ""
+
+#: templates/translate-email-invoice.php:25
+msgid "Organizer"
+msgstr ""
+
+#: templates/translate-email-invoice.php:31
+msgid "Rate"
+msgstr ""
+
+#: templates/translate-email-invoice.php:32
+msgid "Qty"
+msgstr ""
+
+#: templates/translate-email-invoice.php:33
+msgid "Amount"
+msgstr ""
+
+#: templates/translate-email-invoice.php:34
+msgid "Tax\\Fee"
+msgstr ""
+
+#: templates/translate-email-invoice.php:35
+msgid "Discount"
+msgstr ""
+
+#: templates/translate-email-invoice.php:36
+msgid "Total Due"
+msgstr ""
+
+#: templates/translate-email-tickets.php:10
+msgid "DATE"
+msgstr ""
+
+#: templates/translate-email-tickets.php:11
+msgid "TIME"
+msgstr ""
+
+#: templates/translate-email-tickets.php:12
+msgid "PRICE"
+msgstr ""
+
+#: templates/translate-email-tickets.php:13
+msgid "Ticket Holder"
+msgstr ""
+
+#: templates/translate-email-tickets.php:14
+msgid "Organized by"
+msgstr ""
+
+#: templates/translate-invoice-is-corrupted.php:11
+msgid "OoO!"
+msgstr ""
+
+#: templates/translate-invoice-is-corrupted.php:12
+msgid "Bad Situation"
+msgstr ""
+
+#: templates/translate-invoice-is-corrupted.php:13
+msgid "Invoice Data is Missed!"
+msgstr ""
+
+#: templates/translate-invoice-not-found.php:11
+msgid "It`s wrong way!"
+msgstr ""
+
+#: templates/translate-invoice-not-found.php:12
+msgid "You_Know?"
+msgstr ""
+
+#: templates/translate-invoice-not-found.php:13
+msgid "Invoice not found!"
+msgstr ""
+
+#: templates/translate-permission-denied.php:12
+msgid "Access Denied!"
+msgstr ""
+
+#: templates/translate-successfully-checked.php:10
+msgid "Checked Successfully"
+msgstr ""
+
+#: templates/translate-successfully-checked.php:12
+msgid "Successfully Checked!"
+msgstr ""
+
+#: templates/translate-successfully-unchecked.php:10
+#: templates/translate-successfully-unchecked.php:12
+msgid "Successfully Unchecked"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "MEC Ticket and Invoice"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://webnus.net/modern-events-calendar/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"You can easily sell your events on your website using the Ticket & Invoice "
+"add-on. this add-on allows you to manage your attendees' check-in, send out "
+"tickets and invoices in email format. Using this add-on, you can design your "
+"own invoice & tickets. The QR codes on the tickets enable you to check-in "
+"attendees using the QR code scanner device. Using this tool, you manage your "
+"payments on your own website. No need to refer your customers to any other "
+"third party websites."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Webnus"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://webnus.net"
+msgstr ""

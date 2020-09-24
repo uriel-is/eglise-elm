@@ -1,0 +1,40 @@
+/*  # Image Select Param
+=========================================*/
+.wn-categories-wrap {
+	background: #f1f1f1;
+	padding: 1px 15px;
+	border: 1px solid rgba(55, 70, 82, 0.36);
+	border-radius: 2px;
+	box-shadow: 0px 1px 15px 0.8px #37465230;
+}
+
+.wn-categories-wrap .wn-checkbox {
+	float: left;
+	margin-right: 10px;
+}
+
+.wn-categories-wrap .wn-checkbox-active {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	border: 1px solid #82888e;
+	box-sizing: border-box;
+}
+
+.wn-categories-wrap .wn-checkbox .wn-checkbox-active i {
+	display: none;
+}
+
+.wn-categories-wrap .wn-checkbox.active .wn-checkbox-active i {
+	display: block;
+	color: #008aff;
+	font-size: 14px;
+	padding-left: 2px;
+	padding-top: 2px;
+}
+
+.wn-categories-wrap .cat-item {
+	line-height: 1.3;
+	margin-bottom: 10px;
+}

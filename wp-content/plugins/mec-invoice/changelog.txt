@@ -1,0 +1,74 @@
+v 1.2.0 - 13 September 2020 
+- Added: Ability to create unique sorting for invoices number (custom invoice number)
+- Improved: WooCommerce Integration add-on bookings
+- Removed: Ability to creating "Scheduled" invoice
+- Fixed: Set confirmed and verified when you add booking manually
+- Fixed: Booking time in the invoice preview page
+- Fixed: Un-checked link when you scanned the QR Code
+- Fixed: An issue regarding the "Enable Check-in Using QR Code only On Event Opening Days" option
+- Fixed: Date format for the event date
+- Fixed: Ticket variation
+- Fixed: Some minor issues
+
+v 1.1.8 - 11 July 2020
+- Fixed: Translation strings
+- Fixed: Sell all occurrences by one booking
+- Fixed: Event date on ticket type
+- Fixed: Date formats
+
+v 1.1.7 - 11 June 2020
+- compatibility: With Modern Events Calendar Version 5.6.0
+
+v 1.1.6 - 13 May 2020
+- Fixed: Notification for all each of attendees
+- Fixed: Checkin action for finished events
+- Fixed: Some minor issues
+
+v 1.1.5 - 12 April 2020
+- Added: An option to show invoice time in modern style
+- Added: Translation string for invoice
+- Added: Currency option compatibility
+- Fixed: Coupon issue
+- Fixed: Some minor issues
+
+v 1.1.3 - 29 March 2020
+- Added: Live attendees (check any booking on the report menu live)
+
+v 1.1.2 - 16 March 2020
+- Fixed: Already Checked
+- Fixed: Specific character
+- Fixed: PHP Notice
+- Fixed: Some minor issues
+
+v 1.1.1 - 1 March 2020
+- Fixed: Content charset meta
+- Fixed: Event excerpt
+- Fixed: Some minor issues
+
+v 1.1.0 - 16 February 2020
+- Added: RTL Support
+- Added: Custom CSS for invoices
+- Added: Description for invoices
+- Added: Specific character support
+- Added: Event title to email subject
+- Added: Send an email to all attendees
+- Added: "Enable Check-in Using QR Code only On Event Opening Days" option
+- Fixed: Price for each attendees in Ticket mode
+- Fixed: Event Date Format
+- Fixed: Disable MEC Email
+- Fixed: Total Price
+- Fixed: QR Code rendering
+- Fixed: Total Price
+
+v 1.0.3 - 2 February 2020
+- Removed: Copyright footer
+
+v 1.0.2 - 25 January 2020
+- Fixed: Total Price
+- Fixed: Some minor issues
+
+v 1.0.1 - 19 January - 2020
+- Fixed: Some minor issues
+
+v 1.0.0 - 13 January - 2020
+- Initial Release.

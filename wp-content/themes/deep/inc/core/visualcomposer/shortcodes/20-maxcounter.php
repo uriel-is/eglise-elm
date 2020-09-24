@@ -1,0 +1,90 @@
+<?php
+vc_map( array(
+        'name' 			=> 'Max Counter',
+        'base' 			=> 'maxcounter',
+        "icon" 			=> "webnus-maxcounter",
+		"description" 	=> "MaxCounter",
+        'category' 		=> esc_html__( 'Webnus Shortcodes', 'deep' ),
+        'params' 		=> array(
+			array(
+				'type' 			=> 'dropdown',
+				'heading'		=> esc_html__( 'Type', 'deep' ),
+				'param_name'	=> 'type',
+				'value' 		=> array(
+					'Type 1' => '1',
+					'Type 2' => '2',
+					'Type 3' => '3',
+					'Type 4' => '4',
+					'Type 5' => '5',
+					'Type 6' => '6',
+				),
+				'description' => esc_html__( 'You can choose from these pre-designed types.', 'deep')
+			),
+			array(
+				'type'			=> 'textfield',
+				'heading'		=> esc_html__( 'Count', 'deep' ),
+				'param_name'	=> 'count',
+				'value'			=> '',
+				'description'	=> esc_html__( 'Enter the number that you want to count.', 'deep'),
+			),
+			array(
+				'type'			=> 'textfield',
+				'heading'		=> esc_html__( 'Title', 'deep' ),
+				'param_name'	=> 'title',
+				'value'			=> '',
+				'description'	=> esc_html__( 'Enter the title', 'deep'),
+			),
+			array(
+				'type'			=> 'textfield',
+				'heading'		=> esc_html__( 'Prefix', 'deep' ),
+				'param_name'	=> 'prefix',
+				'value'			=> '',
+				'description'	=> esc_html__( 'Show the unit content before your counter number., example: $', 'deep'),
+			),
+			array(
+				'type'			=> 'textfield',
+				'heading'		=> esc_html__( 'Suffix', 'deep' ),
+				'param_name'	=> 'suffix',
+				'value'			=> '',
+				'description'	=> esc_html__( 'Show the unit content after your counter number., example: %', 'deep'),
+			),
+			array(
+				'type'			=> 'colorpicker',
+				'heading'		=> esc_html__( 'Icon Color', 'deep' ),
+				'param_name'	=> 'color',
+				'value'			=> '',
+				'description'	=> esc_html__( 'Please select icon color', 'deep'),
+				'dependency'	=> array(
+					'element' => 'type',
+					'value'   => array( '1', '2', '3', '4', '5' ),
+				),
+			),
+			array(
+				'type'			=> 'iconfonts',
+				'heading'		=> esc_html__( 'Icon', 'deep' ),
+				'param_name'	=> 'icon',
+				'value'			=> '',
+				'description'	=> esc_html__( 'Please select counter icon', 'deep'),
+				'dependency'	=> array(
+					'element' => 'type',
+					'value'   => array( '1', '2', '3', '4', '5' ),
+				),
+			),	
+			array(
+				'group'			=> 'Class & ID',
+				'type'			=> 'textfield',
+				'heading'		=> esc_html__( 'Extra Class', 'deep' ),
+				'param_name'	=> 'shortcodeclass',
+				'value'			=> '',
+				'edit_field_class'	=> 'vc_col-sm-6 vc_column paddingtop',
+			),
+			array(
+				'group'			=> 'Class & ID',
+				'type'			=> 'textfield',
+				'heading'		=> esc_html__( 'ID', 'deep' ),
+				'param_name'	=> 'shortcodeid',
+				'value'			=> '',
+				'edit_field_class'	=> 'vc_col-sm-6 vc_column paddingtop',
+			),
+        ), 
+    ) );

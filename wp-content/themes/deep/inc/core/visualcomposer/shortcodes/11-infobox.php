@@ -1,0 +1,106 @@
+<?php
+vc_map(array(
+	'name'		  => esc_html__( 'InfoBox', 'deep' ),
+	'base'		  => 'infobox',
+	'description' => esc_html__( 'Create your branch contact info', 'deep' ),
+	'icon'		  => 'webnus-info-box',
+	'category'	  => esc_html__( 'Webnus Shortcodes', 'deep' ),
+	'params'	  => array(
+		array(
+			'heading'	  => esc_html__( 'Featured Text', 'deep' ),
+			'type'		  => 'textfield',
+			'param_name'  => 'featured',
+		),
+		array(
+			'heading'	  => esc_html__( 'Featured URL', 'deep' ),
+			'type'		  => 'textfield',
+			'param_name'  => 'url',
+		),
+		array(
+			'type'          => 'colorpicker',
+			'heading'       => esc_html__('Color of text', 'deep'),
+			'param_name'    => 'ib_color',
+			'value'         => '#242524',
+		),
+		array(
+			'heading'		=> esc_html__( 'Location Setup', 'deep' ),
+			'description' => esc_html__( 'each row for each branch', 'deep'),
+			'type'			=> 'param_group',
+			'param_name'	=> 'setup',
+			'params' => array(
+				array(
+					'heading'	  => esc_html__( 'Branch', 'deep' ),
+					'description' => esc_html__( 'Type a Location of your branch (EX : Area/State/Province/City/Country)', 'deep'),
+					'type'		  => 'textfield',
+					'param_name'  => 'branch',
+					'admin_label' => true,
+				),
+				array(
+					'heading'	  => esc_html__( 'Phone number of branch', 'deep' ),
+					'description' => esc_html__( 'EX: (555) 123 - 4567', 'deep'),
+					'type'		  => 'textfield',
+					'param_name'  => 'phone',
+					'admin_label' => true,
+				),
+				array(
+					'heading'	  => esc_html__( 'Email address of branch', 'deep' ),
+					'description' => esc_html__( 'EX: info@yourdomain.com', 'deep'),
+					'type'		  => 'textfield',
+					'param_name'  => 'mail',
+					'admin_label' => true,
+				),
+				array(
+					'heading'	  => esc_html__( 'Start of week for branch', 'deep' ),
+					'type'		  => 'dropdown',
+					'param_name'  => 'startofday',
+					'value'		  => array(
+						esc_html__( 'Sunday', 'deep' ) => 'Sunday',
+						esc_html__( 'Monday', 'deep' ) => 'Monday',
+						esc_html__( 'Tuesday', 'deep' ) => 'Tuesday',
+						esc_html__( 'Wednesday', 'deep' ) => 'Wednesday',
+						esc_html__( 'Thursday', 'deep' ) => 'Thursday',
+						esc_html__( 'Friday', 'deep' ) => 'Friday',
+						esc_html__( 'Saturday', 'deep' ) => 'Saturday',
+					),
+				),
+				array(
+					'heading'		=> esc_html__( 'Time of work', 'deep' ),
+					'description'	=> esc_html__( 'Start Time and End of Time day', 'deep'),
+					'type'			=> 'textfield',
+					'param_name'	=> 'time',
+					'value'			=> '8:30 AM - 7:00 PM',
+				),
+				array(
+					'heading'	  => esc_html__( 'End of week for branch', 'deep' ),
+					'type'		  => 'dropdown',
+					'param_name'  => 'endofday',
+					'value'		  => array(
+						esc_html__( 'Sunday', 'deep' ) => 'Sunday',
+						esc_html__( 'Monday', 'deep' ) => 'Monday',
+						esc_html__( 'Tuesday', 'deep' ) => 'Tuesday',
+						esc_html__( 'Wednesday', 'deep' ) => 'Wednesday',
+						esc_html__( 'Thursday', 'deep' ) => 'Thursday',
+						esc_html__( 'Friday', 'deep' ) => 'Friday',
+						esc_html__( 'Saturday', 'deep' ) => 'Saturday',
+					),
+				),
+			),
+		),
+		array(
+			'group'			=> 'Class & ID',
+			'type'			=> 'textfield',
+			'heading'		=> esc_html__( 'Extra Class', 'deep' ),
+			'param_name'	=> 'shortcodeclass',
+			'value'			=> '',
+			'edit_field_class'	=> 'vc_col-sm-6 vc_column paddingtop',
+		),
+		array(
+			'group'			=> 'Class & ID',
+			'type'			=> 'textfield',
+			'heading'		=> esc_html__( 'ID', 'deep' ),
+			'param_name'	=> 'shortcodeid',
+			'value'			=> '',
+			'edit_field_class'	=> 'vc_col-sm-6 vc_column paddingtop',
+		),
+	)
+));

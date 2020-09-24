@@ -1,0 +1,784 @@
+.mec-invoice-meta-box h2 {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    padding-top: 20px;
+    margin-top: 35px !important;
+}
+
+.mec-invoice-meta-box .mec-attendee {
+    display: inline-block;
+    width: calc(25% - 25px);
+    border-radius: 3px;
+    box-shadow: 0 3px 10px -2px rgba(0, 0, 0, .04);
+    box-sizing: border-box;
+    margin: 10px;
+    border: solid 1px #edeff2;
+    line-height: 2;
+    position: relative;
+    padding: 20px;
+    padding-top: 25px;
+    min-width: 300px;
+}
+
+@media (max-width: 1600px) {
+    .mec-invoice-meta-box .mec-attendee {
+        width: calc(33% - 25px);
+    }
+}
+
+@media (max-width: 1025px) {
+    .mec-invoice-meta-box .mec-attendee {
+        width: calc(50% - 25px);
+    }
+}
+
+.mec-invoice-meta-box .mec-attendee .mec-row:first-of-type {
+    background: #f2f4f6;
+    padding: 3px 30px;
+    margin: 0 -20px 15px;
+}
+
+.mec-invoice-meta-box .mec-attendee h4 {
+    top: 0;
+    padding: 8px 20px 20px 8px;
+    float: left;
+    font-size: 15px;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+    text-transform: capitalize;
+    line-height: 1.5;
+    color: #3a4044;
+}
+
+.mec-invoice-meta-box .mec-attendee img {
+    width: 36px;
+    height: auto;
+    border-radius: 36px;
+    float: left;
+}
+
+.mec-invoice-meta-box .mec-attendee .mec-row {
+    font-size: 13px;
+    font-weight: 400;
+    color: #54585b;
+    clear: both;
+}
+
+.mec-invoice-meta-box .mec-attendee .mec-row span {
+    color: #747f86;
+}
+
+.mec-invoice-meta-box .mec-attendee.loading {
+    filter: grayscale(1);
+    opacity: .6;
+    pointer-events: none
+}
+
+.mec-invoice-meta-box .mec-attendee .checked-in-status {
+    text-shadow: none;
+    box-shadow: 0 3px 9px -5px #4bc615;
+    background: #71ea27;
+    background: linear-gradient(95deg, #05ae10 0, #47c011 50%, #55cb0a 100%);
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 14px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-radius: 22px;
+    cursor: pointer;
+    width: 100px;
+    transition: all .2s ease;
+}
+
+.mec-invoice-meta-box .mec-attendee .checked-in-status.status-yes {
+    background: #40d8f0;
+    background: linear-gradient(95deg, #13cbe8 0, #40d8f0 50%, #71dff0 100%);
+    box-shadow: 0 3px 9px -5px #40d8f0
+}
+
+.mec-invoice-meta-box .mec-attendee .checked-in-status:hover {
+    background: #5a6162;
+    background: linear-gradient(95deg, #202222 0, #5a6162 50%, #879091 100%);
+    box-shadow: 0 3px 9px -4px rgba(0, 0, 0, .3)
+}
+
+.mec-invoice-meta-box span.mec-invoice-verification-status {
+    box-shadow: 0 3px 9px -5px#40d8f0;
+    text-shadow: none;
+    background: #40d8f0;
+    background: linear-gradient(95deg, #13cbe8 0, #2dd1ea 50%, #71dff0 100%);
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 10px;
+    border-radius: 2px;
+    cursor: pointer
+}
+
+.mec-invoice-meta-box span.mec-invoice-verification-status.status-verified {
+    box-shadow: 0 3px 30px -4px #b2f040;
+    background: #b2f040;
+    background: linear-gradient(95deg, #b2f040 0, #b8ea2d 50%, #61e813 100%)
+}
+
+.mec-invoice-meta-box span.mec-invoice-verification-status.status-canceled {
+    box-shadow: 0 3px 30px -4px #f04040;
+    background: #f04040;
+    background: linear-gradient(95deg, #f04040 0, #ea2d2d 50%, #e81313 100%)
+}
+
+.mec-invoice-add-new-attendee {
+    text-shadow: none;
+    background: #40d8f0;
+    background: linear-gradient(95deg, #40d8f0 0, #2dd1ea 50%, #13cbe8 100%);
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 150px
+}
+
+.mec-invoice-remove-attendee {
+    text-shadow: none;
+    background: #f04040;
+    background: linear-gradient(95deg, #f04040 0, #ea2d2d 50%, #e81313 100%);
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 150px
+}
+
+.mec-invoice-attendee {
+    padding: 15px;
+    background-color: #f5f5f5;
+    padding-top: 20px;
+    border-radius: 3px;
+    border: solid 1px #eee;
+    margin-bottom: 10px
+}
+
+.wns-be-container .select-company-logo, .wns-be-container .dpr-btn.dpr-import-btn {
+    color: #fff;
+    font-weight: 500;
+    border-radius: 2px;
+    box-shadow: 0 3px 10px -4px #008aff;
+    text-shadow: none;
+    background: #008aff;
+    background: linear-gradient(95deg, #36a2ff 0, #008aff 50%, #0072ff 100%);
+    border: none;
+    transition: .24s
+}
+
+.wns-be-container .select-company-logo:active, .wns-be-container .dpr-btn.dpr-import-btn:active, .wns-be-container .select-company-logo:hover, .wns-be-container .dpr-btn.dpr-import-btn:hover {
+    color: #fff !important;
+    background: #222;
+    background: linear-gradient(95deg, #555 0, #222 50%, #000 100%);
+    box-shadow: 0 5px 23px -7px rgba(0, 0, 0, .5);
+    cursor: pointer
+}
+
+.wns-be-container .select-company-logo {
+    padding: 5px 25px;
+    margin: 1px
+}
+
+.column-invoiceID {
+    width: 120px
+}
+
+.mec-invoice-meta-box {
+    line-height: 2.3
+}
+
+.mec-invoice-meta-box label {
+    display: block;
+    padding: 3px 10px;
+    box-sizing: border-box;
+    cursor: default;
+    width: 33%;
+    float: left;
+    font-size: 14px;
+    color: #54585b;
+}
+
+.mec-invoice-meta-box label:hover {
+    background: #f9fafb;
+}
+
+@media (max-width: 1640px) {
+    .mec-invoice-meta-box label {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .mec-invoice-meta-box label {
+        width: 100%;
+    }
+}
+
+.mec-invoice-status-closed {
+    font-weight: 700;
+    color: #f2555f;
+    text-transform: capitalize
+}
+
+.mec-invoice-status-open {
+    font-weight: 700;
+    color: #8bc34a;
+    text-transform: capitalize
+}
+
+.mec-invoice-export-as-xml-wrap {
+    display: block;
+    position: relative;
+    background-color: #fff;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    padding: 50px;
+    box-shadow: 0 5px 20px -4px #ddd;
+    border-radius: 2px
+}
+
+.mec-invoice-export-as-xml-wrap .description {
+    display: block;
+    position: relative;
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center
+}
+
+.mec-invoice-export-as-xml-wrap .mec-invoice-export-btn {
+    color: #fff;
+    font-weight: 500;
+    border-radius: 2px;
+    box-shadow: 0 3px 10px -4px #008aff;
+    text-shadow: none;
+    background: #008aff;
+    background: linear-gradient(95deg, #36a2ff 0, #008aff 50%, #0072ff 100%);
+    border: none;
+    transition: .24s;
+    padding: 20px;
+    cursor: pointer
+}
+
+.mec-invoice-export-as-xml-wrap .wns-be-container, .mec-invoice-export-as-xml-wrap #wns-be-infobar {
+    border: none;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 20px;
+    background: #fff
+}
+
+.mec-invoice-export-as-xml-wrap #wns-be-infobar:before {
+    border: none;
+    margin: auto;
+    position: relative
+}
+
+.mec-invoice-meta-box .mec-attendee .checked-in-status.status-error {
+    box-shadow: 0 3px 30px -4px #f44336;
+    text-shadow: none;
+    background: #f44336;
+    background: linear-gradient(95deg, #F44336 0, #E91E63 50%, #F44336 100%)
+}
+
+.checkin_status .checkedIn {
+    font-weight: 700;
+    color: #8bc34a;
+    text-transform: capitalize;
+    padding-left: 15px
+}
+
+.checkin_status .checkedOut {
+    font-weight: 700;
+    color: #a7a7a7;
+    text-transform: capitalize;
+    padding-left: 15px
+}
+
+/* Inovice Metabox */
+.table.table_left {
+    float: left;
+    width: 45%;
+}
+
+.table.table_right {
+    float: right;
+    width: 45%;
+}
+
+.mec-invoice-dashboard-metabox-wrap table {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 1em;
+}
+
+.mec-invoice-dashboard-metabox-wrap table thead td {
+    border-bottom: 1px solid #ececec;
+    color: #777;
+    padding: 3px 0;
+}
+
+.mec-invoice-dashboard-metabox-wrap table tbody tr td:first-of-type {
+    font-size: 12px;
+    padding-right: 12px;
+    color: #777;
+    width: 100%;
+}
+
+.mec-invoice-dashboard-metabox-wrap table tbody tr td:last-of-type {
+    font-size: 14px;
+    padding-right: 6px;
+    width: auto;
+    line-height: 1.5;
+    vertical-align: middle;
+}
+
+.mec-invoice-dashboard-metabox-wrap table td {
+    padding: 3px 0;
+}
+
+.last-invoice a {
+    text-decoration: none;
+}
+
+.last-invoice {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.last-invoice span {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    background: #00769c;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 11px;
+    padding: 2px 4px;
+    margin-right: 2px;
+}
+
+.post-type-mec_invoice #the-list tr:hover {
+    background-color: #50a4af24;
+}
+
+div#mec-pusher-messages {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 9999999;
+    direction: rtl;
+}
+
+div#mec-pusher-messages .message-wrap {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    padding-left: 80px;
+    box-shadow: 0 3px 9px -4px rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    width: 0;
+    height: 18px;
+    transition: 1s;
+    opacity: 0.5;
+    padding-right: 0;
+}
+
+div#mec-pusher-messages .message-wrap:hover {
+    padding-left: 90px;
+    padding-right: 10px;
+    width: auto;
+    opacity: 1;
+}
+
+div#mec-pusher-messages .message-wrap > span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    border-right: solid 1px #ddd;
+    font-weight: 700;
+    font-size: 13px;
+    width: 80px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+div#mec-pusher-messages .message-wrap > span.check-in {
+    background: #71ea27;
+    background: linear-gradient(95deg, #05ae10 0, #47c011 50%, #55cb0a 100%);
+    border-right: none;
+    color: #fff;
+}
+
+div#mec-pusher-messages .message-wrap > span.check-out {
+    background: #40d8f0;
+    background: linear-gradient(95deg, #13cbe8 0, #40d8f0 50%, #71dff0 100%);
+    border-right: none;
+    color: #fff;
+    font-size: 12px;
+}
+
+div#mec-pusher-messages .message-wrap > span.new-booking {
+    background: #eac927;
+    background: linear-gradient(95deg, #aea105 0, #c0b311 50%, #cbbc0a 100%);
+    border-right: none;
+    color: #fff;
+    font-size: 9px;
+}
+
+div#mec-pusher-messages .message-wrap > .message {
+    font-size: 15px;
+}
+
+.wns-be-container .group-box {
+    padding: 15px 20px;
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+    position: relative;
+    display: block;
+    height: auto;
+}
+
+.mec-admin-dark-mode .wns-be-container .group-box {
+    background-color: #000;
+}
+
+.wns-be-container .group-box:before {
+    content: "";
+    width: 4px;
+    height: 100%;
+    margin-right: 5px;
+    background-color: #E2E2E2;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.wns-be-container .group-box:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.mec-invoice-export-attendees-as-contact {
+    position: absolute;
+    box-shadow: 0 3px 30px -8px #40d8f0;
+    text-shadow: none;
+    background: #40d8f0;
+    background: linear-gradient(95deg,#40d8f0 0,#2dd1ea 50%,#13cbe8 100%);
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 10px;
+    border-radius: 2px;
+    top: -60px;
+    left: 0;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+.mec-invoice-export-attendees-as-contact:hover {
+    background: #40d8f0;
+}
+
+.mec-report-selected-event-attendees-wrap {
+    margin-top: 75px;
+}
+
+.attendees .mec-booking-attendees-tooltip.mec-invoice-attendees {
+    position: relative
+}
+
+.attendees strong {
+    line-height: 26px;
+    padding-left: 26px
+}
+
+.attendees .mec-booking-attendees-tooltip.mec-invoice-attendees:before {
+    position: absolute;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ1IDc5LjE2MzQ5OSwgMjAxOC8wOC8xMy0xNjo0MDoyMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkExRThEOEI5QzM0MDExRUE5RTgyOEJGQkUwOERCREFEIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkExRThEOEJBQzM0MDExRUE5RTgyOEJGQkUwOERCREFEIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QTFFOEQ4QjdDMzQwMTFFQTlFODI4QkZCRTA4REJEQUQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QTFFOEQ4QjhDMzQwMTFFQTlFODI4QkZCRTA4REJEQUQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7TKwCsAAABjElEQVR42pzUTSiEQRzHcevdySYrDsgBJXEhJ5JSjlvckKuXKMmBcpMzpZUTKdselTiQC1Jy0kZxkcTFy+LAksV36mebnp6HzdSn9plnnv8z83tm1td69pT2R+vBLAp0/YAg9u1B6X8UKUEI2ZjDPDKxh2l7oO+XGTWiHFt4dtzbRTMCuPOa0Qg+cIgIYlhxjGnRmEmvpS1rCSeoQBHC6FWf3RLIcyvkRx/WUI9LBWuK9KNGwSdj8Qq7C+96yNkW8YJOXRcq9OtUv5rdPq1ZDOvZ1f8UysCrfo9r2RduhU41uMGjUJaCDyvkgFdGB5r+jEuRKWWyjkf1RbVhXZe2iTqUOvontJ9MG8SQvuINdtwKBfXlolbfupbSZPWFFLw5g224T3cciTedq4jVv4QvnGPMEcuotoTfnLVcpV8Mc/DaceSYqRlzjCq9rBJXyisf8UwrvDLddGtxVOv3pZhN2Y0OLJhCOVprzJp6wlHIp8+/jQHl1qGtsPHzN2KCrdVpTqWZl9/qQCfbtwADAL2/W2vDY4aDAAAAAElFTkSuQmCC');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    content: '';
+    height: 12px;
+    margin: 10px 0;
+    top: -30px;
+    left: 0;
+    font-size: 18px;
+    line-height: 12px;
+    color: #40d9f1;
+    padding: 0 60px 5px 0
+}
+
+.attendees .mec-booking-attendees-tooltip.mec-invoice-attendees ul {
+    position: absolute;
+    min-width: 300px;
+    max-width: 600px;
+    display: inline-block;
+    left: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #535a61;
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: .5px;
+    line-height: 1.3;
+    z-index: 9999999;
+    box-sizing: border-box;
+    box-shadow: 0 4px 45px -8px #444b50;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .23s;
+    padding: 23px 20px 20px 20px;
+    border-radius: 8px;
+    margin-top: -13px
+}
+
+.attendees .mec-booking-attendees-tooltip.mec-invoice-attendees ul:before {
+    display: block;
+    content: ''!important;
+    position: absolute!important;
+    width: 12px;
+    height: 12px;
+    left: -10px!important;
+    top: 50%!important;
+    transform: translate(50%,-50%) rotate(-45deg)!important;
+    background-color: #535a61!important;
+    box-shadow: 0 8px 9px -4px #535a61!important;
+    z-index: 0!important
+}
+
+.attendees .mec-booking-attendees-tooltip.mec-invoice-attendees:hover ul {
+    visibility: visible;
+    opacity: 1
+}
+
+.attendees .mec-booking-attendees-tooltip.mec-invoice-attendees ul a {
+    color: #40d9f1;
+    margin-bottom: 14px;
+    margin-left: 0;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: .5px;
+    position: relative;
+    text-decoration: none;
+    display: block;
+    width: max-content
+}
+
+.attendees .mec-booking-attendees-tooltip.mec-invoice-attendees ul li:last-child a {
+    margin-bottom: 0
+}
+
+.mec-invoice-quote {
+    position: relative;
+    display: block;
+    font-weight: 400;
+    padding-left: 10px;
+    color: #161616;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    border: solid 1px #ddd;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.post-type-mec_invoice .widefat th.sortable:nth-child(2) {
+    width: 250px;
+}
+
+/* MEC Invoice Backend Styles */
+.post-type-mec_invoice .wrap h1.wp-heading-inline {
+    margin-bottom: 14px;
+}
+
+.post-type-mec_invoice .button-hero,
+.post-type-mec_invoice #adv-settings .button,
+.post-type-mec_invoice .search-box .button,
+.post-type-mec_invoice .tablenav .button,
+.post-type-mec_invoice .page-title-action:active,
+.post-type-mec_invoice .page-title-action {
+    font-size: 1em;
+    padding: 6px 22px;
+    margin-right: 3px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 2px;
+    box-shadow: 0 3px 10px -4px #008aff;
+    text-shadow: none;
+    background: #008aff;
+    background: linear-gradient(95deg,#36a2ff 0,#008aff 50%,#0072ff 100%);
+    border: none;
+    transition: .24s;
+}
+
+.post-type-mec_invoice .page-title-action {
+    display: block;
+    margin-bottom: 14px;
+}
+
+.post-type-mec_invoice .page-title-action {
+    max-width: fit-content;
+}
+
+.post-type-mec_invoice .button-hero:hover,
+.post-type-mec_invoice #adv-settings .button:hover,
+.post-type-mec_invoice .search-box .button:hover,
+.post-type-mec_invoice .tablenav .button:hover,
+.post-type-mec_invoice .page-title-action:hover {
+    background: #222;
+    background: linear-gradient(95deg,#555 0,#222 50%,#000 100%);
+    box-shadow: 0 5px 23px -7px rgba(0,0,0,.5);
+    color: #fff;
+}
+
+.post-type-mec_invoice .metabox-prefs .screen-options .screen-per-page,
+.post-type-mec_invoice .tablenav-pages .current-page,
+.post-type-mec_invoice .tablenav .actions select,
+.post-type-mec_invoice .search-box input[name="s"],
+.post-type-mec_invoice .tablenav .search-plugins input[name="s"],
+.post-type-mec_invoice .tagsdiv .newtag{
+    border: solid 1px #ddd;
+    border-radius: 2px;
+    height: 40px;
+    line-height: 38px;
+    padding-left: 10px;
+    box-shadow: 0 3px 10px -2px rgba(0,0,0,.05), inset 0 1px 2px rgba(0,0,0,.02);
+    margin-bottom: 15px;
+}
+
+.post-type-mec_invoice .metabox-prefs .screen-options .screen-per-page {
+    margin: 0;
+}
+
+/* Screen Options */
+.post-type-mec_invoice #screen-options-wrap input[type=radio],
+.post-type-mec_invoice #screen-options-wrap input[type=checkbox] {
+    background-color: #fff;
+    border: 1px solid #36a2ff;
+    box-shadow: 0 1px 3px -1px #36a2ff;
+    padding: 9px;
+    border-radius: 3px;
+    min-width: 24px;
+    min-height: 24px;
+    display: inline-block!important;
+    vertical-align: middle;
+    float: none;
+    transition: all .18s ease;
+    outline: 0;
+    margin: 1px 4px 4px 0;
+    text-align: left;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.post-type-mec_invoice #screen-options-wrap input[type=radio] {
+    -webkit-appearance: none;
+    border-radius: 20px!important;
+    min-width: 20px;
+    min-height: 20px;
+    margin: 0 0 4px 0;
+    vertical-align: middle;
+}
+
+.post-type-mec_invoice #screen-options-wrap input[type=radio]:hover,
+.post-type-mec_invoice #screen-options-wrap input[type=checkbox]:hover {
+    border-color: #0072ff
+}
+
+.post-type-mec_invoice #screen-options-wrap input[type=radio]:checked,
+.post-type-mec_invoice #screen-options-wrap input[type=checkbox]:checked {
+    box-shadow: 0 1px 6px -2px #0072ff;
+    border-color: #0072ff;
+    background: linear-gradient(95deg,#36a2ff 0,#008aff 50%,#0072ff 100%);
+    border-radius: 2px;
+    position: relative
+}
+
+.post-type-mec_invoice #screen-options-wrap input[type=radio]:checked {
+    box-shadow: 0 1px 6px -2px #0072ff,inset 0 0 0 3px #fff!important;
+}
+
+.post-type-mec_invoice #screen-options-wrap input[type=checkbox]:checked:before {
+    content: "";
+    font: normal;
+    position: absolute;
+    top: 10px;
+    left: 3px;
+    margin: 0;
+    vertical-align: middle;
+    line-height: 1;
+    border-right: 2px solid #fff!important;
+    border-bottom: 2px solid #fff!important;
+    transform: rotate(45deg);
+    transform-origin: 0 100%;
+    color: #fff;
+    transition: all .2s ease;
+    animation: checkbox-check 130ms 140ms cubic-bezier(.4,0,.23,1) forwards;
+}
+
+.post-type-mec_invoice #screen-options-wrap input[type=radio]:checked {
+    box-shadow: 0 1px 6px -2px #0072ff,inset 0 0 0 3px #fff!important
+}
+
+.post-type-mec_invoice #screen-options-wrap input[type="radio"]:checked::before {
+    display: none;
+}
+
+@keyframes checkbox-check {
+    0% {
+        width: 0;
+        height: 0;
+        border-color: #fff;
+        transform: translate3d(0,0,0) rotate(45deg)
+    }
+
+    33% {
+        width: 6px;
+        height: 0;
+        transform: translate3d(0,0,0) rotate(45deg)
+    }
+
+    100% {
+        width: 6px;
+        height: 12px;
+        border-color: #fff;
+        transform: translate3d(0,-12px,0) rotate(45deg)
+    }
+}

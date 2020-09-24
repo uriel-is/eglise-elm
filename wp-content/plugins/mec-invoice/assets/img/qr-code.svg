@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26.746" height="24.369" viewBox="0 0 26.746 24.369">
+  <g id="Group_13658" data-name="Group 13658" transform="translate(-490.68 -577.68)">
+    <g id="Group_13651" data-name="Group 13651" transform="translate(490.053 578)">
+      <g id="Group_13650" data-name="Group 13650">
+        <g id="Group_13646" data-name="Group 13646" transform="translate(0.947)">
+          <path id="Path_22636" data-name="Path 22636" d="M3132.627,250.758h4.533v4.533" transform="translate(-3111.054 -250.758)" fill="none" stroke="#556068" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.64"/>
+          <g id="Group_13645" data-name="Group 13645">
+            <path id="Path_22637" data-name="Path 22637" d="M3106.135,282.9H3101.6v-4.533" transform="translate(-3101.603 -259.169)" fill="none" stroke="#556068" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.64"/>
+            <path id="Path_22638" data-name="Path 22638" d="M3137.16,278.365V282.9h-4.533" transform="translate(-3111.054 -259.169)" fill="none" stroke="#556068" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.64"/>
+            <path id="Path_22639" data-name="Path 22639" d="M3101.6,255.291v-4.533h4.533" transform="translate(-3101.603 -250.758)" fill="none" stroke="#556068" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.64"/>
+          </g>
+        </g>
+        <g id="Group_13648" data-name="Group 13648" transform="translate(8.981 23.729)">
+          <line id="Line_6236" data-name="Line 6236" x2="10.921" stroke-dasharray="0 4.382" stroke="#556068" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.64" fill="none"/>
+        </g>
+        <g id="Group_13649" data-name="Group 13649" transform="translate(8.981)">
+          <line id="Line_6237" data-name="Line 6237" x2="10.921" stroke-dasharray="0 4.382" stroke="#556068" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.64" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <text id="QR_CODE" data-name="QR CODE" transform="translate(491 592)" fill="#556068" font-size="6" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">QR CODE</tspan></text>
+    <path id="Path_22655" data-name="Path 22655" d="M1083.875,705.649h3.329a.279.279,0,0,0,.3-.257v-22.2a.279.279,0,0,0-.3-.257h-3.329c.28,1.077.432,10.208.432,11.358S1084.155,704.572,1083.875,705.649Z" transform="translate(1198.263 -487.556) rotate(90)" fill="#556068"/>
+    <line id="Line_6243" data-name="Line 6243" x1="16.145" transform="translate(495.5 581.546)" fill="none" stroke="#556068" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.642"/>
+    <line id="Line_6244" data-name="Line 6244" x1="16.145" transform="translate(495.5 584.177)" fill="none" stroke="#556068" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.642"/>
+  </g>
+</svg>

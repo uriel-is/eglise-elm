@@ -1,0 +1,37 @@
+﻿v 1.1.5 - 19 August 2020
+- Added: Custom Color Styles for single event page
+
+v 1.1.0 - 12 August 2020
+- Added: Custom Color Styles for all shortcodes
+- Fixed: Auto update
+
+v 1.0.5 - 3 August 2020
+- Added: Custom Data Fields
+- Improved: Booking dropdown menu style
+- Fixed: Responsive mobile issue on single event
+- Fixed: Some minor issue
+
+v 1.0.4 - 5 July 2020
+- Fixed: Monthly view popup
+- Fixed: Booking form style
+- Fixed: Sidebar realize option 
+- Fixed: Reason for Cancellation popup
+- Fixed: Single event Responsive mobile
+- Fixed: Month divider on list view
+- Fixed: Minimum tickets regarding display available tickets
+- Fixed: Search Category
+- Fixed: Some minor issue
+
+v 1.0.3 - 11 June 2020
+- compatibility: With Modern Events Calendar Version 5.6.0
+
+v 1.0.2 - 31 May 2020
+- Added: Language file
+- Fixed: License
+- Fixed: Some minor issue
+
+v 1.0.1 - 20 May 2020
+- Fixed: Monthly view in Tablet/Mobile
+
+v 1.0.0 - 17 May 2020
+- Initial Release

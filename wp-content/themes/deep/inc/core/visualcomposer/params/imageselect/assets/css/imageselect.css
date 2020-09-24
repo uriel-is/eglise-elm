@@ -1,0 +1,34 @@
+/*  # Image Select Param
+=========================================*/
+.wn-image-select-wrap label {
+    position: relative;
+    display: inline-block;
+}
+
+.wn-image-select-wrap label > input {
+	visibility: hidden;
+	position: absolute;
+}
+.wn-image-select-wrap label > input + img {
+	cursor:pointer;
+	border:2px solid transparent;
+}
+.wn-image-select-wrap label > input:checked + img {
+	border:2px solid #06a509;
+}
+.wn-image-select-wrap label span.checked-element {
+	display: none;
+}
+.wn-image-select-wrap label.checked span.checked-element {
+	display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.wn-image-select-wrap label.checked span.checked-element i {
+    background: #06a509;
+    padding: 10px;
+    border-radius: 50px;
+    color: #fff;
+}

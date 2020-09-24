@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <style   media="screen">
+  @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100')
+$one-third = 100%/3
+$two-third = $one-third * 2
+$h4-height = 100%/5
+clearfix()
+  zoom 1
+  &:after
+  &:before
+    content ""
+    display table
+  &:after
+    clear both
+
+html
+  box-sizing border-box
+*,
+*:before,
+*:after
+  box-sizing border-box
+html,
+body
+  width 100%
+  font-family 'Roboto Slab', serif
+  line-height 1.8em
+  letter-spacing .1em
+  color #fff
+  background darkturquoise
+  @media screen and (min-width: 600px)
+    padding 0 10px
+    background cornflowerblue
+h1
+  font-size 2em
+  line-height 1.4em
+  text-align center
+  padding .5em
+
+section
+  clearfix()
+  position relative
+  height auto
+  h4
+    background rgba(#000,.1)
+    cursor pointer
+    border 1px solid rgba(#000,.2)
+    border-top none
+    padding 15px 20px
+    &:first-child
+      border-top 1px solid rgba(#000,.2)
+    @media screen and (min-width: 600px)
+      position relative
+      width $one-third
+      height $h4-height
+      display block
+      /* border-right 1px solid rgba(#000,.2) */
+  ul
+    clearfix()
+    position relative
+    height auto
+    min-height 100%
+    border 1px solid rgba(#000,.2)
+    border-left none
+    display none
+    li
+      list-style circle
+    @media screen and (min-width: 600px)
+      position absolute
+      width $two-third
+      right 0
+      top 0
+      padding 15px 30px
+  .active
+    cursor default
+    border-bottom 1px solid rgba(#000,.2)
+    border-right none
+    @media screen and (min-width: 600px)
+      background rgba(#000,0)
+      border-right 1px solid rgba(#000,0)
+  .active + ul
+    display block  
+  </style>
+</head>
+<body>
+
+
+<section>
+  <h4 class="active"> Who?</h4>
+  <ul>
+    <li> Nam de isto magna dissensio est.</li>
+    <li> Quis istud possit, inquit, negare?</li>
+    <li> Quod mihi quidem visus est, cum sciret, velle tamen confitentem audire Torquatum.</li>
+    <li> Sic enim censent, oportunitatis esse beate vivere.</li>
+    <li> Nam de isto magna dissensio est.</li>
+    <li> Quis istud possit, inquit, negare?</li>
+    <li> Quod mihi quidem visus est, cum sciret, velle tamen confitentem audire Torquatum.</li>
+    <li> Sic enim censent, oportunitatis esse beate vivere.</li>
+    <li> I need to fix this... "section" should wrap around the "ul"</li>
+  </ul>
+</section>
+</body>
+</html>

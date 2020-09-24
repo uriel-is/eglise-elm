@@ -1,0 +1,64 @@
+[24-Sep-2020 02:29:07 UTC] PHP Notice:  Undefined index: hook_suffix in /var/www/html/eglise-elm/wp-admin/includes/class-wp-screen.php on line 223
+[24-Sep-2020 02:29:26 UTC] PHP Notice:  Undefined index: hook_suffix in /var/www/html/eglise-elm/wp-admin/includes/class-wp-screen.php on line 223
+[24-Sep-2020 02:30:20 UTC] PHP Notice:  Undefined index: hook_suffix in /var/www/html/eglise-elm/wp-admin/includes/class-wp-screen.php on line 223
+[24-Sep-2020 02:30:25 UTC] WordPress database error Duplicate column name 'days' for query 
+
+ALTER TABLE `elmdb_mec_events` ADD `days` TEXT NULL DEFAULT NULL, ADD `time_start` INT(10) NOT NULL DEFAULT '0', ADD `time_end` INT(10) NOT NULL DEFAULT '0'; made by do_action('wp_ajax_deep_install_plugin'), WP_Hook->do_action, WP_Hook->apply_filters, Deep_Admin->install_plugin, TGM_Plugin_Activation->install_plugins_page, TGM_Plugin_Activation->do_plugin_install, TGM_Plugin_Activation->activate_single_plugin, activate_plugin, do_action('activate_modern-events-calendar-lite/modern-events-calendar-lite.php'), WP_Hook->do_action, WP_Hook->apply_filters, MEC_factory->activate, MEC_factory->install, MEC_main->create_mec_tables, MEC_db->q
+[24-Sep-2020 02:30:25 UTC] WordPress database error Duplicate column name 'not_in_days' for query 
+
+ALTER TABLE `elmdb_mec_events` ADD `not_in_days` TEXT NOT NULL DEFAULT '' AFTER `days`; made by do_action('wp_ajax_deep_install_plugin'), WP_Hook->do_action, WP_Hook->apply_filters, Deep_Admin->install_plugin, TGM_Plugin_Activation->install_plugins_page, TGM_Plugin_Activation->do_plugin_install, TGM_Plugin_Activation->activate_single_plugin, activate_plugin, do_action('activate_modern-events-calendar-lite/modern-events-calendar-lite.php'), WP_Hook->do_action, WP_Hook->apply_filters, MEC_factory->activate, MEC_factory->install, MEC_main->create_mec_tables, MEC_db->q
+[24-Sep-2020 02:30:28 UTC] WordPress database error Multiple primary key defined for query ALTER TABLE `elmdb_mec_users` ADD PRIMARY KEY (`id`), ADD UNIQUE KEY `email` (`email`); made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, MEC_feature_update->update, MEC_feature_update->version5110, MEC_db->q
+[24-Sep-2020 02:30:28 UTC] PHP Notice:  Undefined index: hook_suffix in /var/www/html/eglise-elm/wp-admin/includes/class-wp-screen.php on line 223
+[24-Sep-2020 02:30:35 UTC] PHP Notice:  Undefined index: hook_suffix in /var/www/html/eglise-elm/wp-admin/includes/class-wp-screen.php on line 223
+[24-Sep-2020 02:30:39 UTC] PHP Notice:  Undefined index: hook_suffix in /var/www/html/eglise-elm/wp-admin/includes/class-wp-screen.php on line 223
+[24-Sep-2020 02:30:52 UTC] PHP Notice:  Undefined index: hook_suffix in /var/www/html/eglise-elm/wp-admin/includes/class-wp-screen.php on line 223
+[24-Sep-2020 02:30:58 UTC] PHP Notice:  Undefined index: hook_suffix in /var/www/html/eglise-elm/wp-admin/includes/class-wp-screen.php on line 223
+[24-Sep-2020 02:31:28 UTC] PHP Notice:  Undefined index: hook_suffix in /var/www/html/eglise-elm/wp-admin/includes/class-wp-screen.php on line 223
+[24-Sep-2020 03:36:44 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/01-slider-item.php on line 199
+[24-Sep-2020 03:36:44 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-content-carousel-tab.php on line 38
+[24-Sep-2020 03:36:44 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-testimonial-single-tab.php on line 71
+[24-Sep-2020 03:37:40 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/01-slider-item.php on line 199
+[24-Sep-2020 03:37:40 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-content-carousel-tab.php on line 38
+[24-Sep-2020 03:37:40 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-testimonial-single-tab.php on line 71
+[24-Sep-2020 03:43:00 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/01-slider-item.php on line 199
+[24-Sep-2020 03:43:00 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-content-carousel-tab.php on line 38
+[24-Sep-2020 03:43:00 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-testimonial-single-tab.php on line 71
+[24-Sep-2020 03:44:44 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/01-slider-item.php on line 199
+[24-Sep-2020 03:44:44 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-content-carousel-tab.php on line 38
+[24-Sep-2020 03:44:44 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-testimonial-single-tab.php on line 71
+[24-Sep-2020 03:46:10 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/01-slider-item.php on line 199
+[24-Sep-2020 03:46:10 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-content-carousel-tab.php on line 38
+[24-Sep-2020 03:46:10 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-testimonial-single-tab.php on line 71
+[24-Sep-2020 03:47:50 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/01-slider-item.php on line 199
+[24-Sep-2020 03:47:50 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-content-carousel-tab.php on line 38
+[24-Sep-2020 03:47:50 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-testimonial-single-tab.php on line 71
+[24-Sep-2020 03:49:17 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/01-slider-item.php on line 199
+[24-Sep-2020 03:49:17 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-content-carousel-tab.php on line 38
+[24-Sep-2020 03:49:17 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-testimonial-single-tab.php on line 71
+[24-Sep-2020 03:52:02 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/01-slider-item.php on line 199
+[24-Sep-2020 03:52:02 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-content-carousel-tab.php on line 38
+[24-Sep-2020 03:52:02 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-testimonial-single-tab.php on line 71
+[24-Sep-2020 03:53:06 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/01-slider-item.php on line 199
+[24-Sep-2020 03:53:06 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-content-carousel-tab.php on line 38
+[24-Sep-2020 03:53:06 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-testimonial-single-tab.php on line 71
+[24-Sep-2020 03:53:35 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/01-slider-item.php on line 199
+[24-Sep-2020 03:53:35 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-content-carousel-tab.php on line 38
+[24-Sep-2020 03:53:35 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-testimonial-single-tab.php on line 71
+[24-Sep-2020 03:54:34 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/01-slider-item.php on line 199
+[24-Sep-2020 03:54:34 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-content-carousel-tab.php on line 38
+[24-Sep-2020 03:54:34 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-testimonial-single-tab.php on line 71
+[24-Sep-2020 03:54:57 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/01-slider-item.php on line 199
+[24-Sep-2020 03:54:57 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-content-carousel-tab.php on line 38
+[24-Sep-2020 03:54:57 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-testimonial-single-tab.php on line 71
+[24-Sep-2020 03:55:21 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/01-slider-item.php on line 199
+[24-Sep-2020 03:55:21 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-content-carousel-tab.php on line 38
+[24-Sep-2020 03:55:21 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-testimonial-single-tab.php on line 71
+[24-Sep-2020 03:56:25 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/01-slider-item.php on line 199
+[24-Sep-2020 03:56:25 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-content-carousel-tab.php on line 38
+[24-Sep-2020 03:56:25 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-testimonial-single-tab.php on line 71
+[24-Sep-2020 03:59:19 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/01-slider-item.php on line 199
+[24-Sep-2020 03:59:19 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-content-carousel-tab.php on line 38
+[24-Sep-2020 03:59:19 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-testimonial-single-tab.php on line 71
+[24-Sep-2020 04:00:32 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/01-slider-item.php on line 199
+[24-Sep-2020 04:00:32 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-content-carousel-tab.php on line 38
+[24-Sep-2020 04:00:32 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-testimonial-single-tab.php on line 71

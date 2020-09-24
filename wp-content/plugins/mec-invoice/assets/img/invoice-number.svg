@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.256" height="28.642" viewBox="0 0 24.256 28.642">
+  <g id="invoice-number" transform="translate(-408.406 -303.336)">
+    <line id="Line_1573" data-name="Line 1573" x1="10.123" transform="translate(414.356 315.382)" fill="none" stroke="#556068" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.642"/>
+    <line id="Line_1574" data-name="Line 1574" x1="10.123" transform="translate(414.356 312.546)" fill="none" stroke="#556068" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.642"/>
+    <path id="Path_9653" data-name="Path 9653" d="M105.521,772.575H99.415a.48.48,0,0,0-.48.481v2.622a1.014,1.014,0,0,0,1.014,1.014h.015a1.041,1.041,0,0,0,.95-.656,1.686,1.686,0,0,1,3.107,0,1.041,1.041,0,0,0,.95.656h.015A1.015,1.015,0,0,0,106,775.678v-2.622A.48.48,0,0,0,105.521,772.575Z" transform="translate(316.949 -468.918)" fill="none" stroke="#556068" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.642"/>
+    <path id="Path_9654" data-name="Path 9654" d="M113.843,774.441h2.234v20.8a5.054,5.054,0,0,1-5.053,5.054H94.292v-2.235" transform="translate(316.265 -468.643)" fill="none" stroke="#556068" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.642"/>
+    <path id="Path_9655" data-name="Path 9655" d="M98.226,772.575H92.7V798.34h16.819a1.4,1.4,0,0,0,1.4-1.4V795.18h1.759a1.4,1.4,0,0,0,1.4-1.4v-21.2h-5.529" transform="translate(316.03 -468.918)" fill="none" stroke="#556068" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.642"/>
+    <path id="Path_9656" data-name="Path 9656" d="M107.726,785.293V787.2H97.6v-1.909" transform="translate(316.753 -467.043)" fill="none" stroke="#556068" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.642"/>
+    <path id="Path_9657" data-name="Path 9657" d="M98.994,794.435l-5.053-5.053v5.053Z" transform="translate(316.213 -466.441)" fill="#556068"/>
+  </g>
+</svg>
