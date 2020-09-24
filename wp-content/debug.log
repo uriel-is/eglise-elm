@@ -89,3 +89,37 @@ ALTER TABLE `elmdb_mec_events` ADD `not_in_days` TEXT NOT NULL DEFAULT '' AFTER 
 [24-Sep-2020 04:33:58 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/01-slider-item.php on line 199
 [24-Sep-2020 04:33:58 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-content-carousel-tab.php on line 38
 [24-Sep-2020 04:33:58 UTC] PHP Notice:  Undefined index: tab_id in /var/www/html/eglise-elm/wp-content/themes/deep/inc/core/visualcomposer/shortcodes/08-testimonial-single-tab.php on line 71
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'date' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7125
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7128
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7130
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7131
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'date' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7125
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7128
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7130
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7131
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'date' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7125
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7128
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7130
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7131
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'date' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7125
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7128
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7130
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7131
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'date' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7125
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7128
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7130
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7131
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'date' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7125
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7128
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7130
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7131
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'date' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7125
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7128
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7130
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7131
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'date' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7125
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7128
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7130
+[24-Sep-2020 08:17:53 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/eglise-elm/wp-content/plugins/modern-events-calendar-lite/app/libraries/main.php on line 7131
+[24-Sep-2020 08:35:43 UTC] PHP Notice:  Undefined index: hook_suffix in /var/www/html/eglise-elm/wp-admin/includes/class-wp-screen.php on line 223
+[24-Sep-2020 08:35:58 UTC] PHP Notice:  Undefined index: hook_suffix in /var/www/html/eglise-elm/wp-admin/includes/class-wp-screen.php on line 223
