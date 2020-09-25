@@ -50,5 +50,3 @@ require_once DEEP_DIR . 'core-templates.php';
 if ( ! defined( 'DEEPFREE' ) ) {
 	require_once DEEP_INCLUDES_DIR . 'functions/setup.php';
 }
-
-//add_filter( 'pre_option_link_manager_enabled', '__return_true' );
